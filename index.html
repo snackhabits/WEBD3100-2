@@ -65,19 +65,21 @@ Version: HTML Bootstrap 5
                     <div class="col-4"><h1>HERO SECTION</h1></div>
                 </div>
 <!--Form in Hero Section for finding ride-->
-                <form class="row g-3">
+                <form class="row g-3" action="info.php" method="post">
+                    <div class="col-md-6">
+                    </div>
+        <!--Text fields for Point of Origin and Destination-->
+                    <div class="col-md-6">
+                      <label for="pointofOrigin" class="form-label">Origin</label>
+                      <input type="text" name="Origin" class="form-control" id="originlocation">
+                    </div>
                     <div class="col-md-6">
                     </div>
                     <div class="col-md-6">
-                      <label for="inputPassword4" class="form-label">Origin</label>
-                      <input type="text" class="form-control" id="originlocation">
+                      <label for="destination" class="form-label">Destination</label>
+                      <input type="text" name="Destination" class="form-control" id="destinationlocation">
                     </div>
-                    <div class="col-md-6">
-                    </div>
-                    <div class="col-md-6">
-                      <label for="inputPassword4" class="form-label">Destination</label>
-                      <input type="text" class="form-control" id="destinationlocation">
-                    </div>
+        <!--Creates a Time slot dropdown menu for Hero Section-->
                     <div class="col-md-6">
                         <label for="inputTime" class="form-label">Time</label>
                         <select id="inputTime" class="form-select">
@@ -93,11 +95,12 @@ Version: HTML Bootstrap 5
                       <input type="date" class="form-control" id="pickupdate">
                     </div>
                     <div class="col-12">
-                      <button type="submit" class="btn btn-primary">Catch a RIIIIIIIIIDE</button>
+                      <button input type="submit" class="btn btn-primary">Catch a RIIIIIIIIIDE</button>
                     </div>
                   </form>
             </div>
         </section>
+<!--Beginning of Driver/Rider Section-->
         <section id="drivers-riders">
             <div class="container">
                 <div class="row justify-content-center align-items-center g-2">
@@ -107,6 +110,7 @@ Version: HTML Bootstrap 5
                 </div>
             </div>
         </section>
+<!--Beginning of Testimonies Section-->
         <section id="testimonies">
             <div class="container">
                 <div class="row justify-content-center align-items-center g-2">
@@ -116,6 +120,7 @@ Version: HTML Bootstrap 5
                 </div>
             </div>
         </section>
+<!--Beginning of FAQ Section-->
         <section id="FAQs">
             <div class="container">
                 <div class="row justify-content-center align-items-center g-2">
@@ -125,6 +130,7 @@ Version: HTML Bootstrap 5
                 </div>
             </div>
         </section>
+<!--Beginning of Safety Section-->
         <section id="safety">
             <div class="container">
                 <div class="row justify-content-center align-items-center g-2">

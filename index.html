@@ -64,7 +64,38 @@ Version: HTML Bootstrap 5
                 <div class="row justify-content-center align-items-center g-2">
                     <div class="col-4"><h1>HERO SECTION</h1></div>
                 </div>
-                <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis est tortor. Nulla hendrerit libero non congue mollis. Maecenas posuere sed arcu ut posuere. Interdum et malesuada fames ac ante ipsum primis in faucibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce nec ultrices tellus. Quisque tristique sodales dui id vestibulum. Curabitur ultrices metus sit amet odio tempor, nec placerat.</p></div>
+<!--Form in Hero Section for finding ride-->
+                <form class="row g-3">
+                    <div class="col-md-6">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">Origin</label>
+                      <input type="text" class="form-control" id="originlocation">
+                    </div>
+                    <div class="col-md-6">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">Destination</label>
+                      <input type="text" class="form-control" id="destinationlocation">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputTime" class="form-label">Time</label>
+                        <select id="inputTime" class="form-select">
+                          <option selected>Choose...</option>
+                          <option>0600</option>
+                          <option>0630</option>
+                          <option>0700</option>
+                          <option>0730</option>
+                        </select>
+                      </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">Date</label>
+                      <input type="date" class="form-control" id="pickupdate">
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">Catch a RIIIIIIIIIDE</button>
+                    </div>
+                  </form>
             </div>
         </section>
         <section id="drivers-riders">
